@@ -1,6 +1,6 @@
 package aplication;
 
-import boardgame.Position;
+import chess.ChessMatch;
 
 public class Program {
 
@@ -8,9 +8,10 @@ public class Program {
 	
 		
 		
-		Position pos = new Position(3,2);
+		ChessMatch chessMatch = new ChessMatch();
+		UI.printBoard(chessMatch.getPieces());
 		
-		System.out.println(pos);
+		
 
 	}
 
